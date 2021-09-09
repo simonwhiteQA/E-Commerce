@@ -1,0 +1,125 @@
+body {
+  background-color: #fbfbfb;
+}
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0; /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  z-index: 600;
+  padding-top: 120px;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+#brand-slogan {
+  font-size:40px;
+}
+
+body {
+    color: #ffffff
+}
+
+.box {
+    margin: auto
+}
+
+.card {
+    padding: 8%;
+    padding-top: 35px;
+    margin-top: 60px;
+    margin-bottom: 80px
+}
+
+textarea[name="message"] {
+    resize: none
+}
+
+#e-mail {
+    height: 45px
+}
+
+#message {
+    height: 120px
+}
+
+input.input-box,
+textarea.input-box {
+    background-color: #616161;
+    border: #616161;
+    color: #BDBDBD
+}
+
+input.input-box:focus,
+textarea.input-box:focus {
+    background-color: #000000;
+    color: #BDBDBD
+}
+
+.rm-border:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+form .form-control::-webkit-input-placeholder {
+    color: #9E9E9E
+}
+
+::-moz-placeholder {
+    color: #9E9E9E !important
+}
+
+input.btn-purple {
+    background-color: #5C6BC0;
+    color: #ffffff
+}
+
+#blog-card {
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+#dash-nav {
+  margin-top: 140px;
+}
+
+#football-card {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#main-navbar {
+  margin-bottom: 1000px;
+}
+
