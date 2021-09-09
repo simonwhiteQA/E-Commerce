@@ -1,1 +1,0 @@
-INSERT INTO `player` (`id`, `firstname`, `secondname`, `yellow`, `red`, `headshot`) VALUES (1, 'Simon', 'White', 0, 0, 'SimonWhite.jpg');
